@@ -201,8 +201,13 @@ const App = () => {
                 <a href="#work" className="px-6 py-3 rounded-full text-sm font-semibold bg-blue-600 text-white hover:bg-blue-700 hover:scale-105 transition-all duration-300 shadow-lg shadow-blue-600/20">
                   Explore Work
                 </a>
-                <a href="https://www.linkedin.com/in/ayushigconsistent/" target="_blank" rel="noopener noreferrer" className="px-6 py-3 rounded-full text-sm font-semibold bg-white/50 backdrop-blur-sm border border-slate-200 text-slate-700 hover:bg-white hover:scale-105 transition-all duration-300">
+                <a href="https://www.linkedin.com/in/ayushigconsistent/" target="_blank" rel="noopener noreferrer" className="px-6 py-3 rounded-full text-sm font-semibold bg-white/50 backdrop-blur-sm border border-slate-200 text-slate-700 hover:bg-white hover:scale-105 transition-all duration-300 flex items-center gap-2">
+                  <Linkedin size={18} />
                   LinkedIn
+                </a>
+                <a href="https://github.com/Ayushi2098" target="_blank" rel="noopener noreferrer" className="px-6 py-3 rounded-full text-sm font-semibold bg-white/50 backdrop-blur-sm border border-slate-200 text-slate-700 hover:bg-white hover:scale-105 transition-all duration-300 flex items-center gap-2">
+                  <Github size={18} />
+                  GitHub
                 </a>
               </div>
             </FadeInSection>
@@ -607,6 +612,11 @@ const App = () => {
               <a href="https://www.linkedin.com/in/ayushigconsistent/" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-blue-600 transition-all hover:scale-110 flex items-center gap-2 font-bold text-xs uppercase tracking-widest">
                 <Linkedin size={18} strokeWidth={1.5} />
                 <span>LinkedIn</span>
+              </a>
+              <div className="hidden sm:block h-4 w-px bg-slate-200"></div>
+              <a href="https://github.com/Ayushi2098" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-slate-900 transition-all hover:scale-110 flex items-center gap-2 font-bold text-xs uppercase tracking-widest">
+                <Github size={18} strokeWidth={1.5} />
+                <span>GitHub</span>
               </a>
             </div>
           </div>
